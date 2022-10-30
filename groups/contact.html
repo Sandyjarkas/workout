@@ -1,0 +1,106 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../stylesheet/style.css" />
+    <script src="../js/script.js"></script>
+  </head>
+  <body>
+    <div class="navbar">
+      <label class="logo">PR OR ER</label>
+      <a href="../index.html">Home</a>
+
+      <div class="dropdown">
+        <button class="dropbtn">
+          Arms
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="../Groups/arms.html">Biceps</a>
+          <a href="../Groups/arms.html#item2">Triceps</a>
+          <a href="../Groups/arms.html#item3">Forearms</a>
+        </div>
+      </div>
+      <div class="dropdown">
+        <button class="dropbtn">
+          Shoulders
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="../Groups/shoulders.html">Front Delts</a>
+          <a href="../Groups/shoulders.html#item2">Lateral Delts</a>
+          <a href="../Groups/shoulders.html#item3">Rear Delts</a>
+        </div>
+      </div>
+      <div class="dropdown">
+        <button class="dropbtn">
+          Chest
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="../Groups/chest.html">Upper Chest</a>
+          <a href="../Groups/chest.html#item2">Middle Chest</a>
+          <a href="../Groups/chest.html#item3">Lower Chest</a>
+        </div>
+      </div>
+      <div class="dropdown">
+        <button class="dropbtn">
+          Back
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="../Groups/back.html">Lats</a>
+          <a href="../Groups/back.html#item2">Middle Back</a>
+          <a href="../Groups/back.html#item3">Lower Back</a>
+          <a href="../Groups/back.html#item4">Traps</a>
+        </div>
+      </div>
+      <div class="dropdown">
+        <button class="dropbtn">
+          Legs
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="../Groups/legs.html">Glutes</a>
+          <a href="../Groups/legs.html#item2">Hamstrings</a>
+          <a href="../Groups/legs.html#item3">Quads</a>
+          <a href="../Groups/legs.html#item3">Calves</a>
+        </div>
+      </div>
+      <div class="dropdown">
+        <button class="dropbtn">
+          Core
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="../Groups/core.html">Abs</a>
+          <a href="../Groups/core.html#item2">Obliques</a>
+        </div>
+      </div>
+
+      <a href="../Groups/contact.html">Contact</a>
+    </div>
+
+    <main>
+      <center>
+        <h1>Contact Us</h1>
+        <hr />
+        <form onsubmit=" return validate()" name="myform">
+          <div class="form-div">
+            <input type="text" name="name" placeholder="Your Name" /> <br />
+            <input type="text" name="email" placeholder="Your Email" /> <br />
+            <textarea
+              rows="10"
+              name="message"
+              placeholder="Your Message"
+            ></textarea>
+            <br />
+            <button type="submit" class="submit-button">Send Message</button>
+          </div>
+        </form>
+      </center>
+    </main>
+  </body>
+</html>
